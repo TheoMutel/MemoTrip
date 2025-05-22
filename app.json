@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "MemoTrip",
+    "slug": "MemoTrip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Nous avons besoin d'accéder à votre caméra pour capturer des vidéos.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.livretag.MemoTrip"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.livretag.MemoTrip",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDT2TQ8tCNIT7QbPpSYbVGy2XhTuSePcWs"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Autoriser l'application à accéder à votre caméra",
+          "microphonePermission": "Autoriser l'application à accéder à votre micro",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b23e4d45-237c-4951-ad3b-4dcbd8ec091b"
+      }
+    }
+  }
+}
