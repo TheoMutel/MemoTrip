@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">memotrip</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoidGhlb211dGVsIiwiYSI6ImNtM2g1MnVhNDA5NzgyeHM2dTN0a3ZjcTYifQ.zaRDXJvk7x79YNbsFXdUMw</string>
+</resources>
